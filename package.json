@@ -2,14 +2,14 @@
     "name": "aclu_frontend",
     "version": "1.0.0",
     "description": "ACLU react app",
-    "main": "./src/index.js",
+    "main": "index.js",
     "scripts": {
         "start": "webpack-dev-server .",
         "dev": "webpack --mode development --watch",
         "build": "webpack --mode production"
     },
     "keywords": [],
-    "author": "",
+    "author": "Crimps",
     "license": "ISC",
     "devDependencies": {
         "@babel/core": "^7.22.9",

@@ -3,11 +3,12 @@ const webpack = require("webpack");
 
 module.exports = {
     mode: "production",
-    entry: "./src/index.js",
+    entry: "./index.js",
     output: {
         path: path.resolve(__dirname, "public"),
-        filename: "main.js",
+        filename: "main.js"
     },
+    target: "web",
     devServer: {
         port: "3000",
         static: ["./public"],
