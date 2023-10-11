@@ -37,6 +37,10 @@ module.exports = {
     },
     optimization: {
         minimize: true,
+        splitChunks: {
+            minSize: 10000,
+            maxSize: 250000,
+        }
     },
     plugins: [
         new webpack.DefinePlugin({
