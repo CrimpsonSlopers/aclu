@@ -13,7 +13,7 @@ import { Footer } from "./components/Footer";
 import { Demands } from "./components/Demands";
 import { NavBar } from "./components/NavBar";
 
-import Logo from ".//assets/logo.png";
+import Logo from "./assets/logo.png";
 import MoooAudio from "./assets/mooo_audio.wav";
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
         <Box
             width="100%"
             sx={{
-                backgroundImage: Logo,
+                backgroundImage: `url(${Logo})`,
                 backgroundRepeat: "no-repeat",
                 backgroundPosition: "100% 0%",
             }}
