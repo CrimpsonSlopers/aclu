@@ -21,7 +21,7 @@ export const DiscordButton = ({ dark, toggle }) => {
             variant="contained"
             onClick={toggle}
         >
-            <img src={dark ? DiscordDark : DiscordLight} alt="discord" width="34" height="25" style={{ marginRight: 12 }} />
+            <img src={dark ? DiscordLight : DiscordDark} alt="discord" width="34" height="25" style={{ marginRight: 12 }} />
             join now
         </Button>
     )
