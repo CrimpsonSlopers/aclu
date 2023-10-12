@@ -39,7 +39,7 @@ export const NavBar = ({ handleNavClick, toggle }) => {
                             Demands
                         </Typography>
                     </Box>
-                    <DiscordButton dark={true} onClick={toggle} />
+                    <DiscordButton dark={true} toggle={toggle} />
                 </Stack>
             </Stack>
         </Box >
