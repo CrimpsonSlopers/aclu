@@ -66,7 +66,7 @@ function App() {
             <Demands demandsAnchor={demandsAnchor} />
             <Footer />
         </Box>
-    );
+    )
 }
 
 export default App;

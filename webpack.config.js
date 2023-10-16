@@ -2,7 +2,7 @@ const path = require("path");
 const webpack = require("webpack");
 
 module.exports = {
-    mode: "production",
+    mode: "development",
     entry: "./index.js",
     output: {
         path: path.resolve(__dirname, "public"),
@@ -40,9 +40,7 @@ module.exports = {
     },
     plugins: [
         new webpack.DefinePlugin({
-            "process.env": {
-                NODE_ENV: JSON.stringify("production"),
-            },
-        }),
+            'process.env.NODE_ENV': JSON.stringify('development')
+        })
     ]
 };
